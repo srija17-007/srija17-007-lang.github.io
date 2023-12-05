@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Hub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-image: url('header-background.jpg');
+            background-size: cover;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        .course {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type=text] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Language Learning Hub</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Practice</a>
+        <a href="#">About Us</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+
+    <section>
+        <h2>Featured Courses</h2>
+
+        <div class="course">
+            <img src="course1.jpg" alt="Course 1">
+            <div>
+                <h3>Beginner Spanish</h3>
+                <p>Learn the basics of Spanish with our beginner course.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="course2.jpg" alt="Course 2">
+            <div>
+                <h3>Intermediate French</h3>
+                <p>Take your French skills to the next level with our intermediate course.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+
+        <!-- Add more course sections as needed -->
+
+    </section>
+
+    <section>
+        <h2>Language Learning Tips</h2>
+        <p>Explore our video library for helpful language learning tips and tricks.</p>
+        <video controls>
+            <source src="language-tips.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        &copy; 2023 Language Learning Hub. All rights reserved.
+    </footer>
+
+</body>
+</html>
